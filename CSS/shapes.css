@@ -1,0 +1,48 @@
+
+
+/* Circles */
+
+.circle-sm {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle-med {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle-lg {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+/* Rectangles Rounded */
+
+.rectangle-round-sm {
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.rectangle-round-med {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.rectangle-round-lg {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  display: inline-block;
+}

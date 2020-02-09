@@ -1,0 +1,50 @@
+
+
+/* Colours */
+
+/* Background Colours */
+.blog-orange-bg {
+	background: #F18F01;
+}
+
+.blog-turquoise-bg {
+	background: #048BA8;
+}
+
+.blog-darknavy-bg {
+	background: #2E4057;
+}
+
+.blog-green-bg {
+	background: #99C24D;
+}
+
+.blog-darkgrey-bg {
+	background: #2F2D2E;
+}
+
+
+/* Font Colours */
+.blog-orange-font {
+	color: #F18F01;
+}
+
+.blog-turquoise-font {
+	color: #048BA8;
+}
+
+.blog-darknavy-font {
+	color: #2E4057;
+}
+
+.blog-green-font {
+	color: #99C24D;
+}
+
+.blog-darkgrey-font {
+	color: #2F2D2E;
+}
+
+.blog-white-font {
+	color: white;
+}
