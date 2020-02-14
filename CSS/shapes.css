@@ -41,8 +41,8 @@
 }
 
 .rectangle-round-lg {
-  height: 100px;
-  width: 100px;
+  /*height: 100px;
+  width: 100px;*/
   border-radius: 5px;
   display: inline-block;
 }
