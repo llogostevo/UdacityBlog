@@ -18,7 +18,7 @@
 .default-button:hover {
 border-radius: 50px;
 /* inherits original colour and makes it brighter on hover */
-filter: brightness(145%);
+filter: brightness(300%);
 color: white;
 transition: all 0.3s ease 0s;
 }
@@ -29,6 +29,16 @@ transition: all 0.3s ease 0s;
 .burger-row {
   width: 35px;
   height: 5px;
-  background-color: black;
   margin: 6px 0;
+}
+
+/* button navigation styling */
+
+/* button navigation styling */
+#burger-icon {
+    display: inline-block;
+}
+
+#burger-icon:hover {
+    filter: brightness(300%);
 }
