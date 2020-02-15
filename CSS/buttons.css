@@ -9,16 +9,26 @@
 	text-align: center;
 	text-transform: uppercase;
  	padding: 20px;
-/* 	width: 200px;
-*/ 	transition: all 0.2s;
+ 	width: 200px;
+ 	transition: all 0.2s;
  	cursor: pointer;
  	margin: 5px;
  }
  
 .default-button:hover {
 border-radius: 50px;
-background: white;
-border-color: #000000;
-color: inherit;
+/* inherits original colour and makes it brighter on hover */
+filter: brightness(145%);
+color: white;
 transition: all 0.3s ease 0s;
+}
+
+
+/* menu icon */
+
+.burger-row {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
 }

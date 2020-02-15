@@ -1,3 +1,4 @@
+@import url("blog.css");
 @import url("colours.css");
 @import url("shapes.css");
 @import url("buttons.css");
@@ -7,7 +8,7 @@
 
 /* google font - Montserrat */
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
+/* apply Montserrat to all pages */
 body {
 	font-family: 'Montserrat', sans-serif;
 }
