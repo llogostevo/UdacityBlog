@@ -1,48 +1,66 @@
+/* set variables for colours */
+:root {
+    --color-orange: #f18f01;
+    --color-turquoise: #048ba8;
+    --color-darknavy: #2e4057;
+    --color-green: #99c24d;
+    --color-darkgrey: #2f2d2e;
+    --color-lightgrey: #b5b1b4;
+}
 
 
 /* Colours */
 
 /* Background Colours */
 .blog-orange-bg {
-	background: #F18F01;
+	background: var(--color-orange);
 }
 
 .blog-turquoise-bg {
-	background: #048BA8;
+	background: var(--color-turquoise);
 }
 
 .blog-darknavy-bg {
-	background: #2E4057;
+	background: var(--color-darknavy);
 }
 
 .blog-green-bg {
-	background: #99C24D;
+	background: var(--color-green);
 }
 
 .blog-darkgrey-bg {
-	background: #2F2D2E;
+	background: var(--color-darkgrey);
 }
+
+.blog-lightgrey-bg {
+	background: var(--color-lightgrey);
+}
+
 
 
 /* Font Colours */
 .blog-orange-font {
-	color: #F18F01;
+	color: var(--color-orange);
 }
 
 .blog-turquoise-font {
-	color: #048BA8;
+	color: var(--color-turquoise);
 }
 
 .blog-darknavy-font {
-	color: #2E4057;
+	color: var(--color-darknavy);
 }
 
 .blog-green-font {
-	color: #99C24D;
+	color: var(--color-green);
 }
 
 .blog-darkgrey-font {
-	color: #2F2D2E;
+	color: var(--color-darkgrey);
+}
+
+.blog-lightgrey-font {
+	color: var(--color-lightgrey);
 }
 
 .blog-white-font {

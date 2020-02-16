@@ -31,14 +31,3 @@ transition: all 0.3s ease 0s;
   height: 5px;
   margin: 6px 0;
 }
-
-/* button navigation styling */
-
-/* button navigation styling */
-#burger-icon {
-    display: inline-block;
-}
-
-#burger-icon:hover {
-    filter: brightness(300%);
-}

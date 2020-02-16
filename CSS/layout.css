@@ -11,6 +11,13 @@
 /* GRID CSS for Layout */
 
 /* 5 column grid */
+.grid-6-columns {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-column-gap: 1rem;
+}
+
+/* 5 column grid */
 .grid-5-columns {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

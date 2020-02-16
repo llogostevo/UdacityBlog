@@ -47,10 +47,15 @@
 
 /* drop shadow for shapes */
 .drop-shadow-radius {
-    box-shadow: 10px 10px 30px 0px #2F2D2E;
+    box-shadow: 10px 10px 30px 0px var(--color-lightgrey);
     border-radius: 5px;
 }
 /* hover to change shadow */
 .drop-shadow-radius:hover {
-    box-shadow: 3px 3px 30px 0px #2F2D2E;
+    box-shadow: 3px 3px 30px 0px var(--color-darkgrey);
+    cursor: pointer;
 }
+
+/* POST LAYOUT */
+
+
